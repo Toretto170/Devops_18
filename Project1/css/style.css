@@ -7,10 +7,13 @@
     --quinary-color: #FFEB3B; /* Yellow */
   }
 
-  /* Logo */
-.logo {
-    width: 200px;
-    height: auto;
+
+  
+  /* Header */
+  header {
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color); /* use the same color as the navbar */
   }
   
   /* Navbar */
@@ -83,8 +86,26 @@
   .product p {
     margin-left: 10px;
   }
+
+  /* Logo */
+.logo img {
+    width: 50px; /* adjust the width as you like */
+    height: auto;
+  }
   
   .product p:last-child {
       font-weight:bold;
+  }
+
+  /* Immagine */
+img {
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s; /* add a smooth transition */
+  }
+  
+  /* Immagine al passaggio del mouse */
+  img:hover {
+    transform: scale(1.1); /* make it bigger */
   }
   
