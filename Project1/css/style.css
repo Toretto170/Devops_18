@@ -7,19 +7,11 @@
     --quinary-color: #FFEB3B; /* Yellow */
   }
 
-
   
-  /* Header */
-  header {
+/* Navbar */
+nav {
     display: flex;
-    align-items: center;
-    background-color: var(--primary-color); /* use the same color as the navbar */
-  }
-  
-  /* Navbar */
-  nav {
-    display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     background-color: var(--primary-color);
   }
@@ -37,6 +29,13 @@
   
   nav ul li a:hover {
     background-color: var(--secondary-color);
+  }
+  
+
+    /* Logo */
+.logo img {
+    width: 50px; /* adjust the width as you like */
+    height: auto;
   }
   
   /* Cart */
@@ -87,11 +86,7 @@
     margin-left: 10px;
   }
 
-  /* Logo */
-.logo img {
-    width: 50px; /* adjust the width as you like */
-    height: auto;
-  }
+
   
   .product p:last-child {
       font-weight:bold;
